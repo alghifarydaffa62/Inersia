@@ -1,0 +1,48 @@
+.divisi h3 {
+    color: white;
+    text-align: center;
+    margin-top: 25px
+}
+.rowdiv {
+    width: 890px;
+    height: 1150px;
+    background-color: #5887FF;
+    display: flex;
+    justify-content: space-evenly;
+}
+.div1 img {
+    width: 45px;
+    height: 45px;
+}
+.div1 p {
+    font-size: 14px;
+    color: white;
+}
+.div1 {
+    display: flex;
+    padding-left: 10px;
+}
+.div2 img {
+    width: 45px;
+    height: 45px;
+}
+.div2 p {
+    font-size: 14px;
+    color: white;
+}
+.div2 {
+    display: flex;
+    padding-left: 10px;
+}
+.div3 img {
+    width: 45px;
+    height: 45px;
+}
+.div3 p {
+    font-size: 14px;
+    color: white;
+}
+.div3 {
+    display: flex;
+    padding-left: 10px;
+}
