@@ -1,14 +1,19 @@
-.divisi h3 {
+.divisi h2 {
     color: white;
     text-align: center;
-    margin-top: 25px
+}
+.divisi {
+    margin-top: 80px;
 }
 .rowdiv {
-    width: 890px;
-    height: 1150px;
+    width: 800px;
+    height: 70px;
     background-color: #5887FF;
     display: flex;
     justify-content: space-evenly;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 .div1 img {
     width: 45px;
@@ -17,10 +22,11 @@
 .div1 p {
     font-size: 14px;
     color: white;
+    padding-left: 10px;
 }
 .div1 {
     display: flex;
-    padding-left: 10px;
+    padding-top: 10px;
 }
 .div2 img {
     width: 45px;
@@ -29,10 +35,11 @@
 .div2 p {
     font-size: 14px;
     color: white;
+    padding-left: 10px;
 }
 .div2 {
     display: flex;
-    padding-left: 10px;
+    padding-top: 10px;
 }
 .div3 img {
     width: 45px;
@@ -41,8 +48,73 @@
 .div3 p {
     font-size: 14px;
     color: white;
+    padding-left: 10px;
 }
 .div3 {
     display: flex;
-    padding-left: 10px;
+    padding-top: 10px;
+}
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.web {
+    background-color: #23395d;
+    border-radius: 5px;
+    box-shadow: 0px 4px 50px rgba(255, 255, 255, 0.25);
+}
+.programming {
+    background-color: #23395d;
+    border-radius: 5px;
+    box-shadow: 0px 4px 50px rgba(255, 255, 255, 0.25);
+}
+.robotic {
+    background-color: #23395d;
+    border-radius: 5px;
+    box-shadow: 0px 4px 50px rgba(255, 255, 255, 0.25);
+}
+.web img {
+    width: 230px;
+    height: 130px;
+    border-radius: 5px;
+}
+.programming img {
+    width: 230px;
+    height: 130px;
+    border-radius: 5px;
+}
+.robotic img {
+    width: 230px;
+    height: 130px;
+    border-radius: 5px;
+}
+.web h4 {
+    color: white;
+    padding-left: 15px;
+}
+.programming h4 {
+    color: white;
+    padding-left: 15px;
+}
+.robotic h4 {
+    color: white;
+    padding-left: 15px;
+}
+.web p {
+    font-size: 12px;
+    color: white;
+    padding-left: 15px;
+}
+.programming p {
+    font-size: 12px;
+    color: white;
+    padding-left: 15px;
+}
+.robotic p {
+    font-size: 12px;
+    color: white;
+    padding-left: 15px;
 }
