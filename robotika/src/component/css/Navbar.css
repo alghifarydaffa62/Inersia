@@ -2,6 +2,7 @@
     color: white;
     padding-left: 20px;
     text-decoration: none;
+    cursor: pointer;
 }
 .Navbar a:hover {
     color: aqua;

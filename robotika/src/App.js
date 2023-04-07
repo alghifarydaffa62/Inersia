@@ -1,17 +1,16 @@
 import './App.css';
-import Navbar from './component/JS/Navbar';
-import Divisi from './component/JS/divisi';
-import Jumbotron from './component/JS/intro'
+import Home from './pages/Home'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
 function App() {
-  return (
-    <div className="App" >
-      <style>{'body { background-color: #192841; }'}</style>
-      <Navbar/>
-      <Jumbotron/>
-      <Divisi/>
-    </div>
-  );
+  return (   
+      <Router>
+        <Routes>
+          <Route path='/' element={<Home/>} />
+          <Route path='/Home' element={<Home/>} />
+        </Routes>
+      </Router>
+  )
 }
 
 export default App;
