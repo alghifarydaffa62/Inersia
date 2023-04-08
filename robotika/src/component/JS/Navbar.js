@@ -14,7 +14,7 @@ const Navbar = () => {
             
             <ul>
                 <li><a onClick={() => Navigate('/Home')}>Beranda</a></li>
-                <li><a href="">Tentang</a></li>
+                <li><a onClick={() => Navigate('/About')}>Tentang</a></li>
                 <li><a href="">Projek</a></li>
                 <li><a href="">Daftar</a></li>
                 <li><a href="">Masuk</a></li>

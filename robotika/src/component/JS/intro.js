@@ -1,5 +1,6 @@
 import '../css/jumbotron.css'
 import Asset1 from '../img/Asset 1.png'
+import Button from './button'
 
 const Jumbotron = () => {
     return (
@@ -18,7 +19,7 @@ const Jumbotron = () => {
                     divisi yaitu Robotics, Programming, dan Web<br></br>Developer 
                     yang mana kalian bisa memilih salah satu diantaranya.</p>
             </div>
-            <a href="" class="button">Daftar</a>
+            <Button/>
         </div>
     )
 }

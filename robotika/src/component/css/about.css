@@ -1,0 +1,17 @@
+.About {
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+}
+.About p {
+    font-size: 14px;
+}
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+.video {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}

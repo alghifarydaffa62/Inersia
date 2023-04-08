@@ -4,6 +4,7 @@
 }
 .divisi {
     margin-top: 80px;
+    text-align: center;
 }
 .rowdiv {
     width: 800px;
@@ -60,21 +61,25 @@
     align-items: center;
     margin: 0 auto;
     margin-top: 40px;
+    margin-bottom: 20px;
 }
 .web {
     background-color: #23395d;
     border-radius: 5px;
     box-shadow: 0px 4px 50px rgba(255, 255, 255, 0.25);
+    text-align: left;
 }
 .programming {
     background-color: #23395d;
     border-radius: 5px;
     box-shadow: 0px 4px 50px rgba(255, 255, 255, 0.25);
+    text-align: left;
 }
 .robotic {
     background-color: #23395d;
     border-radius: 5px;
     box-shadow: 0px 4px 50px rgba(255, 255, 255, 0.25);
+    text-align: left;
 }
 .web img {
     width: 230px;
@@ -117,4 +122,14 @@
     font-size: 12px;
     color: white;
     padding-left: 15px;
+}
+.slogan {
+    color: white;
+    margin-top: 70px;
+}
+.slogan h1 {
+    text-align: center;
+}
+.slogan p {
+    text-align: center;
 }

@@ -5,6 +5,7 @@ import cardwebdev from '../img/webdevcard.jpg'
 import webdevicon from '../img/programming.png'
 import programmingicon from '../img/coding-language.png'
 import roboticicon from '../img/ai.png'
+import Button from './button'
 
 const Divisi = () => {
     return (
@@ -48,6 +49,14 @@ const Divisi = () => {
                     dan<br></br>membuat robot</p>
                 </div>
             </div>
+
+            <Button/>
+            
+            <div class="slogan">
+                <h1>Na Prochosei Stin Technologia</h1>
+                <p>Maju Dalam Teknologi</p>
+            </div>
+            
         </div>
     )
 }

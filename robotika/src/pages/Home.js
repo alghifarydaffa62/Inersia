@@ -1,6 +1,7 @@
 import Navbar from '../component/JS/Navbar';
 import Divisi from '../component/JS/divisi';
 import Jumbotron from '../component/JS/intro';
+import Footer from '../component/JS/footer';
 
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
             <Navbar/>
             <Jumbotron/>
             <Divisi/>
+            <Footer/>
         </>
     )
 }

@@ -1,0 +1,39 @@
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    padding-top: 30px;
+}
+.footer {
+    background-color: #23395d;
+}
+.copy p{
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+.col {
+    color: white;
+}
+.col a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+.col p {
+    font-size: 14px;
+}
+.col a:hover {
+    color: aqua;
+    transition: ease 1s;
+    cursor: pointer;
+}
+.col p:hover {
+    color: aqua;
+    transition: ease 1s;
+    cursor: pointer;
+}
