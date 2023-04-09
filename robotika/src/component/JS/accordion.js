@@ -1,8 +1,9 @@
-import Accordion from 'react-bootstrap/Accordion';
+import { Accordion } from 'react-bootstrap'
+import React from 'react'
 
-const AlwaysOpenExample = () => {
+function BasicExample() {
   return (
-    <Accordion defaultActiveKey={['0']} alwaysOpen>
+    <Accordion defaultActiveKey="0">
       <Accordion.Item eventKey="0">
         <Accordion.Header>Accordion Item #1</Accordion.Header>
         <Accordion.Body>
@@ -31,4 +32,4 @@ const AlwaysOpenExample = () => {
   );
 }
 
-export default AlwaysOpenExample;
+export default BasicExample;

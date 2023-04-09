@@ -8,6 +8,7 @@ const About = () => {
             <style>{'body { background-color: #192841; }'}</style> 
             <Navbar/>
             <Tentang/>
+            <Footer/>
         </>
     )
    
